@@ -13,7 +13,7 @@
 
 ## 2. 실행 스테이지 시작
 # OpenJDK 17 버전의 이미지를 가져와 JVM 환경을 구축한다.
-#FROM openjdk:17-alpine
+FROM openjdk:17-alpine
 
 # 2-1. 빌드를 미리 수동으로 프로젝트에서 하고 이미지를 구축할 시
 # COPY build/libs/*.jar app.jar
